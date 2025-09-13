@@ -20,6 +20,7 @@
 
 ;;2024-01-30 use guile -e '(conmanv4)' -L . -s ./conmanv4.scm blah from project directory
 
+;; guix shell --manifest=manifest.scm -- guile -e '(conmanv4)' -L . -s ./conmanv4.scm
 
 (define (main args)
   ;; args: '( "script name" "past days to query" "Number of articles to pull")
